@@ -1,15 +1,7 @@
 spring:
   profiles: development
-  datasource:
-      url: jdbc:mysql://localhost:3306/pocArchi?useSSL=false
-      username: root
-      password: admin
-      initialize: false
-  jpa:
-      database-platform: org.hibernate.dialect.MySQLInnoDBDialect
-      database: MYSQL
-      openInView: false
-      show_sql: true
+  someconf:
+    hello: msg
 
 eureka:
   instance:
