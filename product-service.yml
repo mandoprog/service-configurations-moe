@@ -1,0 +1,21 @@
+spring:
+  profiles: development
+  datasource:
+      url: jdbc:mysql://localhost:3306/pocArchi?useSSL=false
+      username: root
+      password: admin
+      initialize: false
+  jpa:
+      database-platform: org.hibernate.dialect.MySQLInnoDBDialect
+      database: MYSQL
+      openInView: false
+      show_sql: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://discovery1.local:8761/eureka,http://discovery2.local:8762/eureka
