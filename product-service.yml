@@ -3,7 +3,8 @@ spring:
   someconf:
     hello: msg
     password: '{cipher}pass'
-
+encrypt:
+  key: allo
 
 eureka:
   instance:
