@@ -2,6 +2,8 @@ spring:
   profiles: development
   someconf:
     hello: msg
+    password: '{cipher}pass'
+
 
 eureka:
   instance:
