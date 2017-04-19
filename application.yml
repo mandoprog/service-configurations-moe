@@ -4,4 +4,4 @@ logging:
   level:
     org.springframework.security: DEBUG
 encrypt:
-    key: allo
+  key: allo
