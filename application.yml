@@ -3,6 +3,3 @@ info:
 logging:
   level:
     org.springframework.security: DEBUG
-spring:
-  encrypt:
-    key: foobar
