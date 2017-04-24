@@ -2,7 +2,7 @@ spring:
   profiles: development
   someconf:
     hello: msg
-    password: '{cipher}2441b0876cfae39a58006b1110547f7215176b841f69741f101249f9dab7ba94'
+    password: '{cipher}AQAq00CG4k5G04ak5IFtM4SAK41deBCZYK3zY3S1DfcWid/iP+OTgX3VH0KsjNp9+T+sRa8i2Dw6oulPBT3aZ+Kb1MGwFjdEMnwn8VGyWLIeNwsaH5l7zsR7gAzkNDDExTrPYzdFTOV54pysfB5Wexfq1NDR+CR9i6eudTw6z+ZxhKOp2U1NxXgPjOB21YKLqe1Xw8rt/6yfoljdMAcOKGDm+ocNL8MxYY4qhucvSK4Ad3mzPqqFpNuL3VX8B9LzwqZcvkjsKN1mXiVwwgVqmbhlZktHeNaGfxp9E1IxKoQ8u8aL8Hwm1wb7XYg2v8t4fwP1yWVvf2o8SLLWe+z+CjK/DCKFotmp4ys4E0gc4br1l0qFgsPJ6gAnxscd66/AlBY='
 encrypt:
   key: allo
 
