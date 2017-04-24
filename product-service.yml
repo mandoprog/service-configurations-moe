@@ -1,5 +1,5 @@
 spring:
-  profiles: development
+  profiles: default
   someconf:
       hello: msg
       password: '{cipher}54c742351371241db3d1fd60fefaae4448c7db249098391549a37a14e6efaed5'
