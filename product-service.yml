@@ -2,7 +2,7 @@ spring:
   profiles: development
   someconf:
     hello: msg
-    password: '{cipher}pass'
+    password: '{cipher}2441b0876cfae39a58006b1110547f7215176b841f69741f101249f9dab7ba94'
 encrypt:
   key: allo
 
