@@ -2,7 +2,7 @@ spring:
   profiles: default
   someconf:
     hello: msg
-    password: '{cipher}54c742351371241db3d1fd60fefaae4448c7db249098391549a37a14e6efaed5'
+    password: '{cipher}282b9bfa5e54550efe2d5e6e79523c6d8e67ad16c1dd1590e72a477fb1497a5ecb3a8b50b235c7b14cdf619cdc9f759f'
 eureka:
   instance:
     prefer-ip-address: true
